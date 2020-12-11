@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl';
+import ReactGA from 'react-ga'
 
 class Projects extends Component{
+    construtor(){
+        ReactGA.initilize('UA-179513769-3');
+        ReactGA.pageview(window.location.pathname);
+    }
     constructor(props){
         super(props);
         this.state={activeTab: 0}
+        
     }
     toogleCategories(){
         if(this.state.activeTab ===0){
