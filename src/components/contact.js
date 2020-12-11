@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import avatar from '../images/profile_avatar.png';
-import ReactGA from 'react-ga'
+
 
 class Contact extends Component{
-    construtor(){
-        ReactGA.initilize('UA-179513769-3');
-        ReactGA.pageview(window.location.pathname);
-    }
     render(){
         return(
             <div className="contact-body">

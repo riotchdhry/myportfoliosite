@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from '../images/profile_avatar.png';
-import ReactGA from 'react-ga'
 class Landing extends Component{
-    construtor(){
-        ReactGA.initilize('UA-179513769-3');
-        ReactGA.pageview(window.location.pathname);
-    }
     render(){
         return(
             <div style = {{width: '100%', margin: 'auto'}}>

@@ -4,13 +4,7 @@ import avatar from '../images/profile_avatar.png'
 import Education from '../components/education';
 import Experience from '../components/experience';
 import Skills from '../components/skills';
-import ReactGA from 'react-ga';
 class Resume extends Component{
-
-    construtor(){
-        ReactGA.initilize('UA-179513769-3');
-        ReactGA.pageview(window.location.pathname);
-    }
     render(){
         return(
             <div>
