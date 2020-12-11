@@ -13,22 +13,19 @@ class Landing extends Component{
                         <div className = "banner-text">
                             <h1>Automation Tester | Manual Tester</h1>
                             <hr/>
-                            <p>E2E Testing | API testing | Test Design | Jest | Protractor | SoapUI | HP-UFT</p>
+                            <p>3+ Years of industry experience| API testing | Test Design | Cypress | Protractor | SoapUI | HP-UFT</p>
                             <div className = "social-links">
                                 {/*LinkedIn */}
-                                <a href = "http://google.com" rel="noopener noreferrer" target = "_blank">
+                                <a href = "https://www.linkedin.com/in/rohit-choudhary-rc/" rel="noopener noreferrer" target = "_blank">
                                     <i className = "fa fa-linkedin-square"  aria-hidden="true"/>
                                 </a>
 
                                 {/*Github */}
-                                <a href = "http://google.com" rel="noopener noreferrer" target = "_blank">
+                                <a href = "https://github.com/riotchdhry" rel="noopener noreferrer" target = "_blank">
                                     <i className = "fa fa-github-square"  aria-hidden="true"/>
                                 </a>
                                 
-                                {/*Github */}
-                                <a href = "http://google.com" rel="noopener noreferrer" target = "_blank">
-                                    <i className = "fa fa-github-square"  aria-hidden="true"/>
-                                </a>
+                                
                             </div>
                         </div>
                     </Cell>

@@ -37,24 +37,32 @@ class Resume extends Component{
                     <Education startYear={2011}
                     endYear = {2015}
                     schoolName = "G.G.S. Indraprastha University"
+                    credentialName  = "Bachelors of Technology (Information Technology)"
                     schoolDescription = "Guru Gobind Singh Indraprastha University was established as Indraprastha University (IPU) on 28 March 1998 by the Govt. of NCT Delhi as a state university under the provisions of Guru Gobind Singh Indraprastha University Act, 1998 with its Amendment in 1999.[4] The University is recognised by University Grants Commission (India), under section 12B of the UGC Act."
                     />
 
                     <Education startYear={2019}
                     endYear = "Present"
                     schoolName = "Conestoga College"
-                    schoolDescription = "Guru Gobind Singh Indraprastha University was established as Indraprastha University (IPU) on 28 March 1998 by the Govt. of NCT Delhi as a state university under the provisions of Guru Gobind Singh Indraprastha University Act, 1998 with its Amendment in 1999.[4] The University is recognised by University Grants Commission (India), under section 12B of the UGC Act."
+                    credentialName  = "Web Design and Developement"
+                    schoolDescription = "Conestoga is a leader in polytechnic education and one of Ontario's fastest growing colleges, delivering a full range of career-focused education, training and applied research programs to prepare students for success in the new knowledge economy and promote economic prosperity throughout our region and across Ontario."
                     />
                     <hr style={{borderTop:'3px solid #e22947'}}/>
 
                     <Experience startYear={2016}
                     endYear = {2019}
                     jobName = "Accenture India"
-                    jobDescription = "Guru Gobind Singh Indraprastha University was established as Indraprastha University (IPU) on 28 March 1998 by the Govt. of NCT Delhi as a state university under the provisions of Guru Gobind Singh Indraprastha University Act, 1998 with its Amendment in 1999.[4] The University is recognised by University Grants Commission (India), under section 12B of the UGC Act."
+                    designationName = "Software Engineering Analyst"
+                    jobDescription = " • Worked as a Functional and Automation Software Testing analyst, handling all phases of software testing Requirement Analysis, Test Planning, Test Preparation, and Test Execution.
+                    • Worked on Agile Delivery Model, Waterfall delivery model, and project operations.
+                    • Testing of Core systems with End-to-End Testing, Regression Testing, Web-services testing, and
+                    Automation Testing.
+                    • Understanding the Requirements of Clients, Preparing Job aids, presenting critical data to the
+                    client, and helping new joiners to get familiar with the organization’s work culture."
                     />
 
                     <Experience startYear={2013}
-                    endYear = {2019}
+                    endYear = {2013}
                     jobName = "Sandrock eSecurities"
                     jobDescription = "Worked as a Summer Intern for eight weeks and worked on a project titled LAN Establishment using OSPF Routing Protocol which was implemented internally in the organization. This project was involved in the development of complex network topology and to find out the feasibility of the same before implementing it in the Real"
                     />
@@ -62,8 +70,17 @@ class Resume extends Component{
                     <hr style={{borderTop:'3px solid #e22947'}}/>
                     <h2>Skills</h2>
                     <Skills
-                    skill = "JavaScript"
+                    skill = "Automation Testing"
                     progress = {80}/>
+                    <Skills
+                    skill = "E2E testing"
+                    progress = {80}/>
+                    <Skills
+                    skill = "Cypress | Protractor"
+                    progress = {85}/>
+                    <Skills
+                    skill = "Selenium"
+                    progress = {70}/>
                 </Cell>
                 </Grid>
                   
