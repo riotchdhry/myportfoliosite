@@ -6,7 +6,13 @@ import LandingPage from './landingpage';
 import Contact from './contact';
 import Resume from './resume';
 import Projects from './projects';
+import ReactGA from 'react-ga'
+import { useEffect } from 'react';
 
+useEffect(() => {
+    ReactGA.initialize('TRACKING ID');
+    ReactGA.pageview(window.location.pathname + window.location.search)
+},[]);
 
 const Main = () =>(
     <Switch>
